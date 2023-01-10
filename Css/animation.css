@@ -1,0 +1,24 @@
+
+.dropdown ul{
+    display: block;
+}
+.dropdown ul li{
+    padding: 5px;
+}
+.dropdown{
+    position: absolute;
+    top: 20px;
+    left: 26%;
+    background: linear-gradient(105.18deg, #1e3b7200 -2.04%, #2A5298 107.42%);
+    border: 1px solid rgba(0, 0, 0, 0.159);
+    color: aliceblue;
+    
+}
+.dropdown{
+    display: none;
+    transition: 1s;
+
+}
+.nav__lists_hover:hover .dropdown{
+    display: block;
+}
